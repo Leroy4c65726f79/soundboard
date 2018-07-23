@@ -1,0 +1,94 @@
+body
+  text-align: center
+  margin-top: 30px
+  font-family: 'Helvetica Neue', 'Helvetica', Arial, sans-serif
+  color: #111
+  background: #fff
+  -webkit-touch-callout: none
+  -webkit-user-select: none
+  -khtml-user-select: none
+  -moz-user-select: none
+  -ms-user-select: none
+  user-select: none
+  overflow: hidden
+
+.key
+  z-index: 999999999999999
+
+.upload
+  margin-left: calc(50vw - 75px)
+  line-height: 3
+  margin-top: 30px
+  background-color: rgba(0,0,0,0.1)
+  width: 150px
+  height: 50px
+  text-decoration: none
+  text-underline-position: none
+  color: rgba(0,0,0,0.3)
+
+a
+  text-decoration: none
+
+h1
+  margin-bottom: 0
+
+h2
+  font-weight: normal
+  margin-top: 5px
+
+.keyboard
+  text-align: left
+  display: inline-block
+  font-size: 30px
+
+.info
+  margin-top: 30px
+
+.key
+  background: #eee
+  display: inline-block
+  min-width: 40px
+  height: 50px
+  line-height: 50px
+  vertical-align: top
+  margin-left: 2px
+  margin-right: 2px
+  margin-bottom: 4px
+  position: relative
+
+.key-shift
+  width: 70px
+  text-align: center
+  line-height: 50px
+  font-size: 0.6em
+  cursor: pointer
+  border: none
+  padding: 0
+  outline: none
+
+.key-shift-neverpressed
+  outline: 4px solid #59f !important
+
+.key-pressed
+  -webkit-box-shadow: inset 0 4px 2px -2px rgba(0, 0, 0, 0.4)
+  box-shadow: inset 0 4px 2px -2px rgba(0, 0, 0, 0.4)
+  background: #666
+  color: #fff
+
+.letter
+  position: absolute
+  width: 100%
+  height: 100%
+  line-height: 50px
+  text-align: center
+  -webkit-transform-origin: 50% 80%
+  transform-origin: 50% 80%
+  -webkit-transition: opacity 45ms ease-out, -webkit-transform 90ms ease-out
+  transition: opacity 45ms ease-out, -webkit-transform 90ms ease-out
+  transition: opacity 45ms ease-out, transform 90ms ease-out
+  transition: opacity 45ms ease-out, transform 90ms ease-out, -webkit-transform 90ms ease-out
+
+.credit
+  display: inline-block
+  font-size: 0.8em
+  margin-top: 1em
