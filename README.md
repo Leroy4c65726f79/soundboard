@@ -2,7 +2,7 @@
 
 
 
-A desktop application can be updated through the web. Upload your stuff -> soundboard.9k1.co
+A desktop application can be updated through the web. Upload your stuff -> https://soundboard.9k1.co/
 
 we have a Pi with the app in our studio. it is very funny
 
