@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>soundboard.9k1.co</title>
+  </head>
+  <body>
+    <iframe id="iframe" src="http://soundboard.9k1.co/pi.php" width="100%" height="100%"></iframe>
+  </body>
+  <script type="text/javascript">
+document.getElementById("iframe").focus();
+
+
+function relode(){var e=document.getElementById("iframe");e.src=e.src}setInterval(function(){relode(),console.log("relode"),console.clear()},18e6);
+
+
+setInterval(function () {
+  console.clear();
+}, 3600000);
+
+
+
+  </script>
+  <style media="screen">
+    body, html {
+      overflow: hidden;
+      height: 100%;
+      margin: 0px;
+      padding: 0px;
+      -webkit-touch-callout: none; /* iOS Safari */
+   -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+      -moz-user-select: none; /* Firefox */
+       -ms-user-select: none; /* Internet Explorer/Edge */
+           user-select: none; /* Non-prefixed version, currently
+                                 supported by Chrome and Opera */
+
+    }
+    iframe {
+      border: none;
+      overflow: hidden;
+      height: 100%;
+      width: 100%;
+    }
+  </style>
+</html>
